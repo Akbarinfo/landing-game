@@ -44,10 +44,8 @@
 
 
 .about__desc {
-  text-align: end;
   font-size: 18px;
   line-height: 22px;
-  text-align: justify;
 }
 
 .about__img {
@@ -86,6 +84,11 @@
   .about__title {
     font-size: 33px;
     line-height: 33px;
+    margin-bottom: 26px;
+
+  }
+  .about__title::after {
+    margin-top: 24px;
   }
 
   .about__desc {
