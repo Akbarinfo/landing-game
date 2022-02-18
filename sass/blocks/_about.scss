@@ -46,6 +46,7 @@
 .about__desc {
   font-size: 18px;
   line-height: 22px;
+  padding-left: 260px;
 }
 
 .about__img {
@@ -66,6 +67,10 @@
 
   .about__boxs {
     flex-direction: column;
+  }
+
+  .about__desc {
+    padding-left: 0px;
   }
 
 }
@@ -94,5 +99,6 @@
   .about__desc {
     font-size: 14px;
     line-height: 16px;
+    padding: 0;
   }
 }
