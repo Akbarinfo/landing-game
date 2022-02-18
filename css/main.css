@@ -350,6 +350,39 @@ html {
   border-radius: 8px;
 }
 
+@media screen and (max-width: 768px) {
+  .container {
+    width: 90%;
+  }
+  .about {
+    padding-bottom: 24px;
+  }
+  .about__boxs {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .container {
+    width: 90%;
+  }
+  .about__query {
+    font-size: 18px;
+    line-height: 18px;
+  }
+  .about__title {
+    font-size: 33px;
+    line-height: 33px;
+  }
+  .about__desc {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
+
 /* FOOTER PART */
 .footer {
   background-color: #fff;

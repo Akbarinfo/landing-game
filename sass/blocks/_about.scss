@@ -55,3 +55,41 @@
   height: 605px;
   border-radius: 8px;
 }
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .about {
+    padding-bottom: 24px;
+  }
+
+  .about__boxs {
+    flex-direction: column;
+  }
+
+}
+
+@media screen and (max-width: 576px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .about__query {
+    font-size: 18px;
+    line-height: 18px;
+  }
+
+  .about__title {
+    font-size: 33px;
+    line-height: 33px;
+  }
+
+  .about__desc {
+    font-size: 14px;
+    line-height: 16px;
+  }
+}
