@@ -966,6 +966,10 @@ html {
   .subscribe__box {
     color: #fff;
   }
+  .subscribe__img {
+    width: 230px;
+    height: 358px;
+  }
   .subscribe__query {
     font-size: 18px;
     line-height: 18px;
