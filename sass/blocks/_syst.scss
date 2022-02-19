@@ -1,0 +1,115 @@
+/* SYSTEM PART */
+
+
+.syst {
+  height: 99vh;
+  background-image: url('../../img/syst-bg.jpg');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100vh;
+  color: #fff;
+  padding-top: 145px;
+  padding-bottom: 170px;
+  
+  &__query {
+    font-family: $font-bebas;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    font-family: $font-bebas;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-align: center;
+    text-transform: uppercase;
+    margin-bottom: 133px;
+  }
+
+  &__list {
+    list-style-type: none;
+    border: 1px solid #979797;
+  }
+
+  &__item {
+    border: 1px solid #979797;
+  }
+
+  &__name {
+    font-family: $font-bebas;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #ffb548;
+  }
+
+  &__info {
+    font-size: 18px;
+    line-height: 22px;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .syst {
+    background-image: url('../../img/syst-bg-mobile.jpg');
+    padding-top: 40px;
+    padding-bottom: 0;
+
+    &__query {
+      font-size: 20px;
+      line-height: 20px;
+    }
+
+    &__title {
+      font-size: 50px;
+      line-height: 50px;
+      margin-bottom: 40px;
+    }
+  }
+
+}
+@media screen and (max-width: 576px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .syst {
+    background-image: url('../../img/syst-bg-mobile.jpg');
+    padding: 0;
+
+
+    &__query {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__title {
+      font-size: 33px;
+      line-height: 33px;
+      margin-bottom: 28px;
+    }
+
+    &__list {
+      list-style-type: none;
+      border: 1px solid #979797;
+    }
+
+    &__name {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__info {
+      font-size: 14px;
+      line-height: 16px;
+    }
+  }
+}

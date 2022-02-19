@@ -1,0 +1,235 @@
+/* PRESS PART */
+
+.press {
+  background-color: #000;
+  background-image: url('../../img/press-bg.png');
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: 100% 100vh;
+  padding: 150px 0;
+
+  &__box {
+    width: 100%;
+    height: 100%;
+  }
+
+  &__main {
+    color: #fff;
+    padding-bottom: 50px;
+  }
+
+  &__query {
+    font-family: $font-bebas;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    margin-bottom: 8px;
+  }
+
+  &__title {
+    font-family: $font-bebas;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 80px;
+    letter-spacing: 3px;
+    text-transform: uppercase;
+    margin-bottom: 40px;
+  }
+
+  &__desc {
+    font-size: 18px;
+    line-height: 22px;
+    margin-bottom: 67px;
+  }
+
+  &__link {
+    background: linear-gradient(194.68deg, #FFB548 11.27%, #F3AF34 90.4%);
+    border-radius: 4px;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #1a1917;
+    padding: 19px 34px;
+
+    &:hover {
+      color: #1a1917;
+    }
+
+  }
+
+  &__list {
+    list-style-type: none;
+  }
+
+  &__item {
+    background: rgba(255, 255, 255, 0.08);
+    border-radius: 10px;
+    float: right;
+    padding: 14px 16px;
+    color: #fff;
+    margin-bottom: 30px;
+
+    &:nth-child(2n+2) {
+      float: left;
+    }
+  }
+
+}
+
+.chat {
+
+  &__box {
+    color: #fff;
+    margin-bottom: 22px;
+  }
+
+  &__avatar {
+    width: 76px;
+    height: 70px;
+    margin-right: 22px;
+
+  }
+
+  &__name {
+    font-family: $font-bebas;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: #FFB548;
+    padding-top: 10px;
+  }
+
+  &__craft {
+    font-size: 18px;
+    line-height: 22px;
+    color: #fff;
+    opacity: 0.5;
+  }
+
+  &__span {
+    display: inline-block;
+    position: relative;
+    top: -10px;
+  }
+
+  &__desc {
+    font-size: 18px;
+    line-height: 25px;
+    margin-bottom: 8px;
+  }
+
+  &__time {
+    font-size: 14px;
+    line-height: 19px;
+    opacity: 0.5;
+  }
+
+}
+
+.icon-twitter {
+  color: #fff;
+  opacity: 0.3;
+}
+
+@media screen and (max-width: 992px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .press__item:nth-child(2n+2) {
+    float: right;
+  }
+
+}
+
+@media screen and (max-width: 768px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .press__box {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media screen and (max-width: 576px) {
+
+  .container {
+    width: 90%;
+  }
+
+  .press {
+    padding: 40px 0;
+
+    &__box {
+      width: 100%;
+      height: 100%;
+    }
+
+    &__query {
+      font-size: 18px;
+      line-height: 18px;
+    }
+
+    &__title {
+      font-size: 33px;
+      line-height: 33px;
+    }
+
+    &__desc {
+      font-size: 14px;
+      line-height: 16px;
+      margin-bottom: 30px;
+    }
+
+    &__link {
+      font-size: 14px;
+      line-height: 19px;
+      padding: 12px 10px;
+    }
+
+  }
+
+  .chat {
+
+    &__box {
+      color: #fff;
+      margin-bottom: 22px;
+    }
+
+    &__avatar {
+      width: 40px;
+      height: 40px;
+      margin-right: 17px;
+
+    }
+
+    &__name {
+      font-size: 21px;
+      line-height: 21px;
+    }
+
+    &__craft {
+      font-size: 14px;
+      line-height: 22px;
+    }
+
+    &__desc {
+      font-size: 14px;
+      line-height: 19px;
+    }
+
+    &__time {
+      font-size: 12px;
+      line-height: 16px;
+    }
+  }
+
+}
